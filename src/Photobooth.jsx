@@ -67,7 +67,7 @@ function Photobooth() {
 
           <div className="photo-item photo-item-medium">
             <img src={`${baseUrl}harsha.JPG`} alt="harsha" className="photobooth-image photobooth-image-contain" />
-            <p className="photo-caption">harsha, who i've learned a lot from</p>
+            <p className="photo-caption">harsha, founder of Reclaim/ Questbook - someone i really look up to</p>
           </div>
           
           <div className="photo-item photo-item-small">
