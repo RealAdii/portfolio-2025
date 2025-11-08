@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './App.css'
 
+const baseUrl = import.meta.env.BASE_URL
+
 function Home() {
   return (
     <div className="app">
@@ -15,7 +17,7 @@ function Home() {
 
       <main className="main">
         <div className="image-container">
-          <img src="/hehedp.jpg" alt="placeholder" className="profile-image" />
+          <img src={`${baseUrl}hehedp.jpg`} alt="placeholder" className="profile-image" />
         </div>
         
         <div className="content">

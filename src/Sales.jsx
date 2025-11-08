@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import './App.css'
 
+const baseUrl = import.meta.env.BASE_URL
+
 function Sales() {
   return (
     <div className="app">
@@ -15,7 +17,7 @@ function Sales() {
 
       <main className="main">
         <div className="image-container">
-          <img src="/wolf.png" alt="placeholder" className="profile-image full-width-image" />
+          <img src={`${baseUrl}wolf.png`} alt="placeholder" className="profile-image full-width-image" />
         </div>
         
         <div className="content">
