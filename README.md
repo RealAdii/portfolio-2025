@@ -1,6 +1,5 @@
-# Farza.com Clone
-
-A React + Vite clone of farza.com
+# portfolio-2025
+this is me.
 
 ## Installation
 
@@ -19,4 +18,3 @@ npm run dev
 ```bash
 npm run build
 ```
-
