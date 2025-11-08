@@ -37,13 +37,15 @@ function Sales() {
                 <li>i've deep knowledge of our existing customers. i hop on calls with them atleast once every two weeks to understand the landscape
                     and use that information to reach out to their competitors or even the service providers used by the competitors to help them get more money.
                 </li>
-                <li>i make sure i've access to my founders social logins to DM folks, firstly founders have amazing network that most of the times they're not even
-                    aware of and DM'ing folks as the founder of a company has a much chance of getting a response. i use one of Reclaim's portco products icebreaker teams
+                <li>i make sure i've access to my founders social logins to DM folks. firstly founders have amazing network that most of the times they're not even
+                    aware of and DM'ing folks as the founder of a company has a much better chance of getting a response. ps: i use one of Reclaim's portco products icebreaker teams
                     to get sense of 1st-3rd connections within the team itself which i can exploit. 
                 </li>
                 <li>
-                    i've articulated and reiterated our landing page atleast 10 times in the last month based off of demo calls to perfect the messaging and value prop, i've made sure
-                    to have a very good idea of who's on our landing, what's most interesting/ not interesting to them. trust me folks, a good landing page will get you in through the door.
+                    i've reiterated our landing page atleast 10 times in the last month based off of demo calls to perfect the messaging and value prop. i've made sure
+                    to have a very good idea of who's on our landing page, what's most interesting/ not interesting to them. 
+                    <br />
+                    trust me folks, a good landing page will get you in through the door.
                     i'm personally not a fan of bombshell designs, i'd rather have something simple that conveys what needs to be conveyed. 
                 </li>
             </ul>
@@ -51,7 +53,7 @@ function Sales() {
 
           <h3 className="category-heading"><strong>2. closing</strong></h3>
         <p className="paragraph">
-            you've probably already hopped on a intro call and demo'ed the product. taking away all the external factos you now need to 
+            you've probably already hopped on a intro call and demo'ed the product - you've a group made or an email thread going now you're gonna have to date these companies and take them to closure. this is how i make that process easier.
             <ul>
                 <li>
                     i believe customers have a higher chance of closing if you give them a sense of ownership (similar to how apple stores keep macbooks at an uncomfortable to make you touch it and correct it) 
