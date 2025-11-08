@@ -64,7 +64,7 @@ function Home() {
 
         <div className="footer">
           <p className="footer-text">
-            p.s: if you wanna contact me book a slot here to say hi <a href="https://cal.com/zero-knowledge-verification/15min"></a>, i love meeting new people! follow me on <a href="https://x.com/adiiHQ">twitter </a> and <a href="https://www.linkedin.com/in/adithya-dinesh-77990026b/">linkedin</a>
+            p.s: if you wanna contact me book a slot <a href="https://cal.com/zero-knowledge-verification/15min">here </a>to say hi, i love meeting new people! follow me on <a href="https://x.com/adiiHQ">twitter </a> and <a href="https://www.linkedin.com/in/adithya-dinesh-77990026b/">linkedin</a>
           </p>
         </div>
       </main>
