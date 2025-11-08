@@ -52,7 +52,7 @@ function Photobooth() {
 
           <div className="photo-item photo-item-small">
             <img src={`${baseUrl}singapore.JPG`} alt="singapore" className="photobooth-image" />
-            <p className="photo-caption">Token2049 had my first IRL close</p>
+            <p className="photo-caption">Token2049 had my first IRL close (that's maddy - founder of Reclaim/ Questbook)</p>
           </div>
 
           <div className="photo-item photo-item-medium">

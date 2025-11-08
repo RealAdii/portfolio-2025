@@ -14,7 +14,7 @@ function Content() {
       </header>
 
       <main className="main">
-        <h1 className="main-heading">content i've made.</h1>
+        <h1 className="main-heading">my virality hack was consistency</h1>
         
         <div className="content">
           

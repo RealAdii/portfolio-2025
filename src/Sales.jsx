@@ -60,7 +60,7 @@ function Sales() {
                     i invoke this sense in prospects by showing them a demo of how the product would look like in their web-app/ native app. this method is now being being by all the entire team now. our designers ship demos in ~ 30mins. 
                 </li>
                 <li>
-                    everyone loves discounts and whenever conversations go cold i pop a discount where it's either a 50% off the first month fee or discount the highest tier and match it to the medium tier to make it feel like they're getting a steal.
+                    everyone loves discounts and whenever conversations go cold i pop a discount where it's either a 50% off the first month fee or discount the highest tier and match it to the medium tier to make them feel like they're getting a steal.
                 </li>
                 <li>
                     followups that make sense - i try my best to never do a "hey, bump on this", my followups are usually something like "hey saw that your competitor x just launched xyz you should use us to launch the campaign and get on top!"
