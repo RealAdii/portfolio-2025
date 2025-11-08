@@ -9,7 +9,7 @@ function Sales() {
       <header className="header">
         <nav className="nav">
           <Link to="/">home</Link>
-          <Link to="/content">videos i've made</Link>
+          <Link to="/content">marketing streak</Link>
           <Link to="/sales">what i think of sales</Link>
           <Link to="/photobooth">photobooth</Link>
         </nav>
