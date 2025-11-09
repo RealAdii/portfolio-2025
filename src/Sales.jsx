@@ -21,7 +21,7 @@ function Sales() {
         </div>
         
         <div className="content">
-          <h2 className="subheading">what i think of sales</h2>
+          <h2 className="main-heading">what i think of sales</h2>
           
           <p className="paragraph">
             b2b sales or any kind of sales is an art form. people tend to either love it or hate it; there's rarely an in-between. i like to think of sales as a three-step art form, where each stage 
