@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import DarkModeToggle from './DarkModeToggle'
 import ImageModal from './ImageModal'
+import BackToTop from './BackToTop'
+import { useScrollAnimation } from './useScrollAnimation'
 import { trackCVDownload, trackEasterEgg, trackSocialMedia, trackExternalLink } from './analytics'
 import './App.css'
 
@@ -9,6 +11,15 @@ const baseUrl = import.meta.env.BASE_URL
 
 function Home() {
   const [modalOpen, setModalOpen] = useState(false)
+
+  // Scroll animations
+  const [imageRef, imageVisible] = useScrollAnimation(0.1)
+  const [headingRef, headingVisible] = useScrollAnimation(0.1, 100)
+  const [content1Ref, content1Visible] = useScrollAnimation(0.1, 200)
+  const [content2Ref, content2Visible] = useScrollAnimation(0.1, 300)
+  const [content3Ref, content3Visible] = useScrollAnimation(0.1, 400)
+  const [principlesRef, principlesVisible] = useScrollAnimation(0.1, 500)
+  const [footerRef, footerVisible] = useScrollAnimation(0.1, 600)
 
   const handleEasterEggClick = () => {
     trackEasterEgg()
@@ -45,7 +56,10 @@ function Home() {
       </header>
 
       <main className="main">
-        <div className="image-container">
+        <div
+          ref={imageRef}
+          className={`image-container scroll-fade-in ${imageVisible ? 'visible' : ''}`}
+        >
           <img
             src={`${baseUrl}hehedp.jpg`}
             alt="placeholder"
@@ -54,27 +68,44 @@ function Home() {
             style={{ cursor: 'pointer' }}
           />
         </div>
-        
+
         <div className="content">
-          <h2 className="subheading">hi, i'm adithya. i'm an engineer turned sales and marketing professional.</h2>
-          
-          <p className="paragraph">
-            i started my first company at 14 when i rented out playstation games to my friends and made over 5 figures in revenue. i also played the piano and the trumpet, sang for the school band, did mimicry and even captained the football team. 
+          <h2
+            ref={headingRef}
+            className={`subheading scroll-slide-right ${headingVisible ? 'visible' : ''}`}
+          >
+            hi, i'm adithya. i'm an engineer turned sales and marketing professional.
+          </h2>
+
+          <p
+            ref={content1Ref}
+            className={`paragraph scroll-fade-in ${content1Visible ? 'visible' : ''}`}
+          >
+            i started my first company at 14 when i rented out playstation games to my friends and made over 5 figures in revenue. i also played the piano and the trumpet, sang for the school band, did mimicry and even captained the football team.
           </p>
-          
-          <p className="paragraph">
-            these days i'm <a href="#" className="no-underline">driving sales and marketing for Reclaim Protocol</a> and <a href="#" className="no-underline">managing grants for ecosystems like circle, polygon, arbitrum on Questbook</a>. 
+
+          <p
+            ref={content2Ref}
+            className={`paragraph scroll-fade-in ${content2Visible ? 'visible' : ''}`}
+          >
+            these days i'm <a href="#" className="no-underline">driving sales and marketing for Reclaim Protocol</a> and <a href="#" className="no-underline">managing grants for ecosystems like circle, polygon, arbitrum on Questbook</a>.
+          </p>
+
+          <p
+            ref={content3Ref}
+            className={`paragraph scroll-fade-in ${content3Visible ? 'visible' : ''}`}
+          >
+            i've lead the sales team at Reclaim and <span className="green-text">took revenues from ~$50k ARR to close to $1M ARR</span> in less than a year. i also changed gears and did marketing <span className="green-text">generating close to a million impressions, made developer content (50+ videos over a span of 2 months) and consistently generated almost 30-40 inbound leads</span> per month.
           </p>
 
           <p className="paragraph">
-            i've lead the sales team at Reclaim and <span className="green-text">took revenues from ~$50k ARR to close to $1M ARR</span> in less than a year. i also changed gears and did marketing <span className="green-text">generating close to a million impressions, made developer content (50+ videos over a span of 2 months) and consistently generated almost 30-40 inbound leads</span> per month.
-          </p>
-          
-          <p className="paragraph">
             in the past, i was an engineer at swiggy (biggest quick-commerce platform in india) and stripe where i realised i had an 'inner calling' for sales, product and marketing.
           </p>
-          
-          <p className="paragraph">
+
+          <p
+            ref={principlesRef}
+            className={`paragraph scroll-fade-in ${principlesVisible ? 'visible' : ''}`}
+          >
             <strong>here are principles I've distilled over the years</strong><br />
             <ul>
                 <li>people first and trust is the foundation.</li>
@@ -97,7 +128,10 @@ function Home() {
           adithya
         </p>
 
-        <div className="footer">
+        <div
+          ref={footerRef}
+          className={`footer scroll-fade-in ${footerVisible ? 'visible' : ''}`}
+        >
           <p className="footer-text">
             p.s: if you wanna contact me book a slot <a href="https://cal.com/zero-knowledge-verification/15min" onClick={() => trackExternalLink('Cal.com', 'Calendar Booking')}>here </a>to say hi, i love meeting new people! follow me on <a href="https://x.com/adiiHQ" onClick={() => trackSocialMedia('Twitter')}>twitter </a> and <a href="https://www.linkedin.com/in/adithya-dinesh-77990026b/" onClick={() => trackSocialMedia('LinkedIn')}>linkedin</a>
           </p>
@@ -109,6 +143,8 @@ function Home() {
         onClose={() => setModalOpen(false)}
         imageSrc={`${baseUrl}easter-egg.jpg`}
       />
+
+      <BackToTop />
     </div>
   )
 }

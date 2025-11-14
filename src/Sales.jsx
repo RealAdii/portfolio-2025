@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import DarkModeToggle from './DarkModeToggle'
+import BackToTop from './BackToTop'
 import './App.css'
 
 const baseUrl = import.meta.env.BASE_URL
@@ -108,6 +109,8 @@ function Sales() {
           </p>
         </div>
       </main>
+
+      <BackToTop />
     </div>
   )
 }
