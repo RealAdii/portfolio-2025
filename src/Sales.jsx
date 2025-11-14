@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import DarkModeToggle from './DarkModeToggle'
 import './App.css'
 
 const baseUrl = import.meta.env.BASE_URL
@@ -8,10 +9,19 @@ function Sales() {
     <div className="app">
       <header className="header">
         <nav className="nav">
-          <Link to="/">home</Link>
-          <Link to="/content">marketing streak</Link>
-          <Link to="/sales">what i think of sales</Link>
-          <Link to="/photobooth">photobooth</Link>
+          <div className="nav-links">
+            <Link to="/">home</Link>
+            <Link to="/content">marketing streak</Link>
+            <Link to="/sales">what i think of sales</Link>
+            <Link to="/photobooth">photobooth</Link>
+          </div>
+          <div className="nav-actions">
+            <a href={`${baseUrl}cv.pdf`} download="adithya_cv.pdf" className="cv-download-btn">
+              <span>↓</span>
+              <span>cv</span>
+            </a>
+            <DarkModeToggle />
+          </div>
         </nav>
       </header>
 

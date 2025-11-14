@@ -1,23 +1,58 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import DarkModeToggle from './DarkModeToggle'
+import ImageModal from './ImageModal'
+import { trackCVDownload, trackEasterEgg, trackSocialMedia, trackExternalLink } from './analytics'
 import './App.css'
 
 const baseUrl = import.meta.env.BASE_URL
 
 function Home() {
+  const [modalOpen, setModalOpen] = useState(false)
+
+  const handleEasterEggClick = () => {
+    trackEasterEgg()
+    setModalOpen(true)
+  }
+
+  const handleCVDownload = () => {
+    trackCVDownload()
+  }
+
   return (
     <div className="app">
       <header className="header">
         <nav className="nav">
-          <Link to="/">home</Link>
-          <Link to="/content">marketing streak</Link>
-          <Link to="/sales">what i think of sales</Link>
-          <Link to="/photobooth">photobooth</Link>
+          <div className="nav-links">
+            <Link to="/">home</Link>
+            <Link to="/content">marketing streak</Link>
+            <Link to="/sales">what i think of sales</Link>
+            <Link to="/photobooth">photobooth</Link>
+          </div>
+          <div className="nav-actions">
+            <a
+              href={`${baseUrl}cv.pdf`}
+              download="adithya_cv.pdf"
+              className="cv-download-btn"
+              onClick={handleCVDownload}
+            >
+              <span>↓</span>
+              <span>cv</span>
+            </a>
+            <DarkModeToggle />
+          </div>
         </nav>
       </header>
 
       <main className="main">
         <div className="image-container">
-          <img src={`${baseUrl}hehedp.jpg`} alt="placeholder" className="profile-image" />
+          <img
+            src={`${baseUrl}hehedp.jpg`}
+            alt="placeholder"
+            className="profile-image clickable"
+            onClick={handleEasterEggClick}
+            style={{ cursor: 'pointer' }}
+          />
         </div>
         
         <div className="content">
@@ -64,10 +99,16 @@ function Home() {
 
         <div className="footer">
           <p className="footer-text">
-            p.s: if you wanna contact me book a slot <a href="https://cal.com/zero-knowledge-verification/15min">here </a>to say hi, i love meeting new people! follow me on <a href="https://x.com/adiiHQ">twitter </a> and <a href="https://www.linkedin.com/in/adithya-dinesh-77990026b/">linkedin</a>
+            p.s: if you wanna contact me book a slot <a href="https://cal.com/zero-knowledge-verification/15min" onClick={() => trackExternalLink('Cal.com', 'Calendar Booking')}>here </a>to say hi, i love meeting new people! follow me on <a href="https://x.com/adiiHQ" onClick={() => trackSocialMedia('Twitter')}>twitter </a> and <a href="https://www.linkedin.com/in/adithya-dinesh-77990026b/" onClick={() => trackSocialMedia('LinkedIn')}>linkedin</a>
           </p>
         </div>
       </main>
+
+      <ImageModal
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+        imageSrc={`${baseUrl}easter-egg.jpg`}
+      />
     </div>
   )
 }
