@@ -36,7 +36,7 @@ function Home() {
         <nav className="nav">
           <div className="nav-links">
             <Link to="/">home</Link>
-            <Link to="/content">marketing streak</Link>
+            <Link to="/content">content bank</Link>
             <Link to="/sales">what i think of sales</Link>
             <Link to="/photobooth">photobooth</Link>
           </div>
@@ -95,7 +95,7 @@ function Home() {
             ref={content3Ref}
             className={`paragraph scroll-fade-in ${content3Visible ? 'visible' : ''}`}
           >
-            i've lead the sales team at Reclaim and <span className="green-text">took revenues from ~$50k ARR to close to $1M ARR</span> in less than a year. i also changed gears and did marketing <span className="green-text">generating close to a million impressions, made developer content (50+ videos over a span of 2 months) and consistently generated almost 30-40 inbound leads</span> per month.
+            i've lead the sales team at Reclaim and <span className="green-text">took revenues from ~$50k ARR to close to $1M ARR</span> in less than a year. i also changed gears and did marketing <span className="green-text">creating a $1M sales pipeline every month by creating millions of impressions on socials</span> creating story telling videos, deeply technical content and fun quirky ads and podcasts.
           </p>
 
           <p className="paragraph">
@@ -122,6 +122,16 @@ function Home() {
           </p>
         </div>
           
+        <a
+          href="https://cal.com/zero-knowledge-verification/15min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cal-button"
+          onClick={() => trackExternalLink('Cal.com', 'Calendar Button')}
+        >
+          talk to me
+        </a>
+
         <p className="paragraph">
           <br />
           cheers,<br />

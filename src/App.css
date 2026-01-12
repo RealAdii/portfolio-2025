@@ -218,6 +218,24 @@
   text-transform: lowercase;
 }
 
+.cal-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: var(--text-primary);
+  color: var(--bg-primary);
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.cal-button:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}
+
 .footer {
   margin-top: 60px;
   padding-top: 40px;

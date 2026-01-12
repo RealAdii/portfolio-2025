@@ -12,7 +12,7 @@ function Sales() {
         <nav className="nav">
           <div className="nav-links">
             <Link to="/">home</Link>
-            <Link to="/content">marketing streak</Link>
+            <Link to="/content">content bank</Link>
             <Link to="/sales">what i think of sales</Link>
             <Link to="/photobooth">photobooth</Link>
           </div>
@@ -102,6 +102,15 @@ function Sales() {
                 </li>
             </ul>
           </p>
+
+        <a
+          href="https://cal.com/zero-knowledge-verification/15min"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cal-button"
+        >
+          i'll sell/ scale your product from 0-1 - talk to me
+        </a>
 
         <div className="footer">
           <p className="footer-text">
