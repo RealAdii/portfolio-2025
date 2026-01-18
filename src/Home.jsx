@@ -44,6 +44,13 @@ const testimonials = [
     title: "@ sophon",
     twitter: "https://x.com/0xlutro",
     avatar: "https://pbs.twimg.com/profile_images/1948726629238247424/rUxAfGsb_400x400.jpg"
+  },
+  {
+    quote: "you have a light within you keep harnessing it and follow your heart.",
+    name: "samurai",
+    title: "director @ zo world",
+    twitter: "https://x.com/Samuraizann",
+    avatar: "https://pbs.twimg.com/profile_images/1921528920543031296/FKqFi2Ck_400x400.jpg"
   }
 ]
 
