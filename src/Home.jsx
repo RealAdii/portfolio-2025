@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import DarkModeToggle from './DarkModeToggle'
 import ImageModal from './ImageModal'
@@ -9,8 +9,61 @@ import './App.css'
 
 const baseUrl = import.meta.env.BASE_URL
 
+const testimonials = [
+  {
+    quote: "adithya gave us a lay of the land on zktls in the early days. he is extremely persistent, hands-on, and has the necessary technical background to win us over as a customer purely off merit.",
+    name: "ya3kov",
+    title: "founder @ 3jane",
+    twitter: "https://x.com/_yakovsky",
+    avatar: "https://pbs.twimg.com/profile_images/1787863954762674176/f2KC9rsD_400x400.jpg"
+  },
+  {
+    quote: "adithya from reclaim is the most persistent and high agency partner we've worked with. despite working in a different time-zone he stayed up all night during launch to firefight issues and make sure things are at 100%.",
+    name: "art",
+    title: "founder @ vana",
+    twitter: "https://x.com/artieart88",
+    avatar: "https://pbs.twimg.com/profile_images/1856676879526166528/q-b8KD5D_400x400.jpg"
+  },
+  {
+    quote: "appreciate all you've done this year and all your support. i know its going to be a big year for you. grind always pays off.",
+    name: "jean",
+    title: "founding member @ xion",
+    twitter: "https://x.com/BurntFondue",
+    avatar: "https://pbs.twimg.com/profile_images/1919753835725103104/mA49-lyD_400x400.jpg"
+  },
+  {
+    quote: "you've already been very helpful, once i have the prototype working in prod and can share internally i will let your team know how helpful you've been.",
+    name: "bradley",
+    title: "creator lead @ base",
+    twitter: "https://x.com/brad_or_bradley",
+    avatar: "https://pbs.twimg.com/profile_images/1407865444430614528/HCEKSw0T_400x400.jpg"
+  },
+  {
+    quote: "do you even sleep?",
+    name: "gio",
+    title: "@ sophon",
+    twitter: "https://x.com/0xlutro",
+    avatar: "https://pbs.twimg.com/profile_images/1948726629238247424/rUxAfGsb_400x400.jpg"
+  }
+]
+
 function Home() {
   const [modalOpen, setModalOpen] = useState(false)
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [showLeft, setShowLeft] = useState(true)
+  const [isVisible, setIsVisible] = useState(true)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsVisible(false)
+      setTimeout(() => {
+        setCurrentIndex((prev) => (prev + 1) % testimonials.length)
+        setShowLeft((prev) => !prev)
+        setIsVisible(true)
+      }, 500)
+    }, 4000)
+    return () => clearInterval(interval)
+  }, [])
 
   // Scroll animations
   const [imageRef, imageVisible] = useScrollAnimation(0.1)
@@ -37,7 +90,8 @@ function Home() {
           <div className="nav-links">
             <Link to="/">home</Link>
             <Link to="/content">content bank</Link>
-            <Link to="/sales">what i think of sales</Link>
+            <Link to="/sales">sales 101</Link>
+            <Link to="/testimonials">testimonials</Link>
             <Link to="/photobooth">photobooth</Link>
           </div>
           <div className="nav-actions">
@@ -55,33 +109,30 @@ function Home() {
         </nav>
       </header>
 
-      <main className="main">
-        <div
-          ref={imageRef}
-          className={`image-container scroll-fade-in ${imageVisible ? 'visible' : ''}`}
-        >
-          <img
-            src={`${baseUrl}hehedp.jpg`}
-            alt="placeholder"
-            className="profile-image clickable"
-            onClick={handleEasterEggClick}
-            style={{ cursor: 'pointer' }}
-          />
-        </div>
+      <div className={`floating-testimonial ${showLeft ? 'left' : 'right'} ${isVisible ? 'visible' : ''}`}>
+        <a href={testimonials[currentIndex].twitter} target="_blank" rel="noopener noreferrer">
+          <p className="floating-quote">"{testimonials[currentIndex].quote}"</p>
+          <div className="floating-author">
+            <img src={testimonials[currentIndex].avatar} alt={testimonials[currentIndex].name} className="floating-avatar" />
+            <span className="floating-name">{testimonials[currentIndex].name}, {testimonials[currentIndex].title}</span>
+          </div>
+        </a>
+      </div>
 
+      <main className="main">
         <div className="content">
           <h2
             ref={headingRef}
             className={`subheading scroll-slide-right ${headingVisible ? 'visible' : ''}`}
           >
-            hi, i'm adithya. i'm an engineer turned sales and marketing professional.
+            hi, i'm adithya.
           </h2>
 
           <p
             ref={content1Ref}
             className={`paragraph scroll-fade-in ${content1Visible ? 'visible' : ''}`}
           >
-            i started my first company at 14 when i rented out playstation games to my friends and made over 5 figures in revenue. i also played the piano and the trumpet, sang for the school band, did mimicry and even captained the football team.
+            i started my first company at 14 when i rented out playstation games to my friends and made over 5 figures in revenue.
           </p>
 
           <p
@@ -95,7 +146,7 @@ function Home() {
             ref={content3Ref}
             className={`paragraph scroll-fade-in ${content3Visible ? 'visible' : ''}`}
           >
-            i've lead the sales team at Reclaim and <span className="green-text">took revenues from ~$50k ARR to close to $1M ARR</span> in less than a year. i also changed gears and did marketing <span className="green-text">creating a $1M sales pipeline every month by creating millions of impressions on socials</span> creating story telling videos, deeply technical content and fun quirky ads and podcasts.
+            i lead the sales team at Reclaim and <span className="green-text">took revenues from ~$50k ARR to close to $1M ARR</span> in less than a year. i also changed gears and did marketing <span className="green-text">creating a $1M sales pipeline every month by creating millions of impressions on socials</span> creating story telling videos, deeply technical content and fun quirky ads and podcasts.
           </p>
 
           <p className="paragraph">
@@ -111,17 +162,30 @@ function Home() {
                 <li>people first and trust is the foundation.</li>
                 <li>focus on few things really well</li>
                 <li><a href="https://www.youtube.com/watch?v=lZoBsFv0B9E">good ideas come from anywhere.</a></li>
-                <li><a href="https://seths.blog/2016/07/no-one-is-unreasonable/">no one is unreasonable</a></li> 
+                <li><a href="https://seths.blog/2016/07/no-one-is-unreasonable/">no one is unreasonable</a></li>
                 <li><a href="https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm">demand excellence of myself and others.</a></li>
                 <li>compromise culls bold ideas. disagree and commit.</li>
             </ul>
           </p>
 
           <p className="paragraph">
-            i'm now based out kerala, india, back to my roots after travelling the world (prev: thailand, singapore, dubai) 
+            i'm now based out kerala, india, back to my roots after travelling the world (prev: thailand, singapore, dubai). i also played the piano and the trumpet, sang for the school band, did mimicry and even captained the football team.
           </p>
         </div>
-          
+
+        <div
+          ref={imageRef}
+          className={`image-container scroll-fade-in ${imageVisible ? 'visible' : ''}`}
+        >
+          <img
+            src={`${baseUrl}hehedp.jpg`}
+            alt="placeholder"
+            className="profile-image clickable"
+            onClick={handleEasterEggClick}
+            style={{ cursor: 'pointer' }}
+          />
+        </div>
+
         <a
           href="https://cal.com/zero-knowledge-verification/15min"
           target="_blank"
@@ -160,4 +224,3 @@ function Home() {
 }
 
 export default Home
-

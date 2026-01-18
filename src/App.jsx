@@ -3,7 +3,9 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import Home from './Home'
 import Content from './Content'
 import Sales from './Sales'
+import Testimonials from './Testimonials'
 import Photobooth from './Photobooth'
+import Chat from './Chat'
 import { initGA, trackPageView } from './analytics'
 import './App.css'
 
@@ -33,7 +35,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/content" element={<Content />} />
         <Route path="/sales" element={<Sales />} />
+        <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/photobooth" element={<Photobooth />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
     </BrowserRouter>
   )

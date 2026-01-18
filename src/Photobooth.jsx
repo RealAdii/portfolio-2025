@@ -13,7 +13,8 @@ function Photobooth() {
           <div className="nav-links">
             <Link to="/">home</Link>
             <Link to="/content">content bank</Link>
-            <Link to="/sales">what i think of sales</Link>
+            <Link to="/sales">sales 101</Link>
+            <Link to="/testimonials">testimonials</Link>
             <Link to="/photobooth">photobooth</Link>
           </div>
           <div className="nav-actions">
