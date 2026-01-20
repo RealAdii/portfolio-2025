@@ -61,6 +61,13 @@ const testimonials = [
     title: "@ earnos",
     twitter: "https://x.com/TomasRiordan",
     avatar: "https://pbs.twimg.com/profile_images/1332447889797357568/UNq34Cef_400x400.jpg"
+  },
+  {
+    quote: "what stood out most was his proactive approach and genuine customer-first mindset. adithya builds trust quickly, understands context fast, and adapts his support to the specific challenges you're facing. he doesn't just react to issues — he anticipates them, brings options to the table, and follows through until things are actually solved.",
+    name: "sidd",
+    title: "@ suave money inc & phoenix market",
+    twitter: "https://x.com/siddjain99",
+    avatar: "https://pbs.twimg.com/profile_images/1899000421735436288/kvUWDUuw_400x400.jpg"
   }
 ]
 
