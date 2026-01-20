@@ -87,7 +87,7 @@ function Testimonials() {
       </header>
 
       <main className="main">
-        <h1 className="main-heading">what people say</h1>
+        <h1 className="main-heading">what founders say about working with me</h1>
 
         <div className="testimonials-page-grid">
           {testimonials.map((testimonial, index) => (
