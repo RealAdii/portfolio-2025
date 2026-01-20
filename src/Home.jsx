@@ -51,6 +51,13 @@ const testimonials = [
     title: "director @ zo world",
     twitter: "https://x.com/Samuraizann",
     avatar: "https://pbs.twimg.com/profile_images/1921528920543031296/FKqFi2Ck_400x400.jpg"
+  },
+  {
+    quote: "adithya is exceptionally responsive, communicates clearly, and reliably coordinates his team to deliver fixes quickly. someone i could always count on when it mattered most.",
+    name: "alex",
+    title: "@ clipstake",
+    twitter: "https://x.com/almacium",
+    avatar: "https://pbs.twimg.com/profile_images/1941511484305027072/KPzCqsHz_400x400.jpg"
   }
 ]
 
