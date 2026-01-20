@@ -32,93 +32,93 @@ function Photobooth() {
         
         <div className="content">
           <div className="photobooth-grid">
-          <div className="photo-item photo-item-small">
-            <img src={`${baseUrl}firstpod.png`} alt="photo 1" className="photobooth-image" />
+          <div className="photo-item">
+            <img src={`${baseUrl}firstpod.png`} alt="podcast" className="photobooth-image" />
             <p className="photo-caption">podcast w/ nader</p>
           </div>
-          
-          <div className="photo-item photo-item-medium">
-            <img src={`${baseUrl}solanahackerhouse.png`} alt="photo 2" className="photobooth-image photobooth-image-contain" />
-            <p className="photo-caption">speaker at solana hacker house</p>
-          </div>
-          
-          <div className="photo-item photo-item-large">
-            <img src={`${baseUrl}zo.png`} alt="photo 3" className="photobooth-image" />
+
+          <div className="photo-item">
+            <img src={`${baseUrl}zo.png`} alt="zo world" className="photobooth-image" />
             <p className="photo-caption">technical session at zo world</p>
           </div>
-          
-          <div className="photo-item photo-item-small">
-            <img src={`${baseUrl}hashedhouse.png`} alt="photo 4" className="photobooth-image" />
+
+          <div className="photo-item">
+            <img src={`${baseUrl}solanahackerhouse.png`} alt="solana" className="photobooth-image" />
+            <p className="photo-caption">speaker at solana hacker house</p>
+          </div>
+
+          <div className="photo-item">
+            <img src={`${baseUrl}hashedhouse.png`} alt="hashed house" className="photobooth-image" />
             <p className="photo-caption">speaker at hashed house</p>
           </div>
-          
-          <div className="photo-item photo-item-wide">
-            <img src={`${baseUrl}college.png`} alt="photo 5" className="photobooth-image photobooth-image-contain" />
-            <p className="photo-caption">got called back to college</p>
-          </div>
-          
-          <div className="photo-item photo-item-medium">
-            <img src={`${baseUrl}chennai.png`} alt="photo 6" className="photobooth-image" />
-            <p className="photo-caption">regular size</p>
-          </div>
 
-          <div className="photo-item photo-item-small">
+          <div className="photo-item">
             <img src={`${baseUrl}singapore.JPG`} alt="singapore" className="photobooth-image" />
-            <p className="photo-caption">Token2049 had my first IRL close (that's maddy - founder of Reclaim/ Questbook)</p>
+            <p className="photo-caption">token2049 had my first irl close (that's maddy - founder of reclaim/questbook)</p>
           </div>
 
-          <div className="photo-item photo-item-medium">
+          <div className="photo-item">
             <img src={`${baseUrl}devconnect.JPG`} alt="devconnect" className="photobooth-image" />
             <p className="photo-caption">i walked around with a whiteboard screaming zktls</p>
           </div>
 
-          <div className="photo-item photo-item-small">
+          <div className="photo-item">
+            <img src={`${baseUrl}college.png`} alt="college" className="photobooth-image" />
+            <p className="photo-caption">got called back to college</p>
+          </div>
+
+          <div className="photo-item">
+            <img src={`${baseUrl}harsha.JPG`} alt="harsha" className="photobooth-image" />
+            <p className="photo-caption">harsha, founder of reclaim/questbook - someone i really look up to</p>
+          </div>
+
+          <div className="photo-item">
+            <img src={`${baseUrl}IITdelhi.jpg`} alt="iit delhi" className="photobooth-image" />
+            <p className="photo-caption">dropped out of engineering, got called back to iit as a mentor</p>
+          </div>
+
+          <div className="photo-item">
+            <img src={`${baseUrl}dubai.JPG`} alt="dubai" className="photobooth-image" />
+            <p className="photo-caption">sales repping in dubai</p>
+          </div>
+
+          <div className="photo-item">
+            <img src={`${baseUrl}40folkswhiteboarding.png`} alt="whiteboarding" className="photobooth-image" />
+            <p className="photo-caption">packed 30+ folks in an airbnb and did a whiteboarding session</p>
+          </div>
+
+          <div className="photo-item">
+            <img src={`${baseUrl}GFF.JPG`} alt="gff" className="photobooth-image" />
+            <p className="photo-caption">web2 sales because we hit the ceiling in web3</p>
+          </div>
+
+          <div className="photo-item">
             <img src={`${baseUrl}communitysesh.jpeg`} alt="community session" className="photobooth-image" />
             <p className="photo-caption">community session</p>
           </div>
 
-          <div className="photo-item photo-item-medium">
-            <img src={`${baseUrl}harsha.JPG`} alt="harsha" className="photobooth-image photobooth-image-contain" />
-            <p className="photo-caption">harsha, founder of Reclaim/ Questbook - someone i really look up to</p>
-          </div>
-          
-          <div className="photo-item photo-item-small">
-            <img src={`${baseUrl}IITdelhi.jpg`} alt="photo 7" className="photobooth-image" />
-            <p className="photo-caption">dropped out of engineering, got called back to IIT as a mentor.</p>
-          </div>
-          
-          <div className="photo-item photo-item-tall">
-            <img src={`${baseUrl}dubai.JPG`} alt="photo 8" className="photobooth-image" />
-            <p className="photo-caption">sales repping in dubai</p>
+          <div className="photo-item">
+            <img src={`${baseUrl}oktooffice.png`} alt="okto office" className="photobooth-image" />
+            <p className="photo-caption">fun ad shot at the coindcx office for questbook!</p>
           </div>
 
-          <div className="photo-item photo-item-medium">
-            <img src={`${baseUrl}GFF.JPG`} alt="photo 9" className="photobooth-image" />
-            <p className="photo-caption">web2 sales because we hit the ceiling in web3</p>
-          </div>
-
-          <div className="photo-item photo-item-medium">
-            <img src={`${baseUrl}oktooffice.png`} alt="photo 9" className="photobooth-image" />
-            <p className="photo-caption">fun ad shot at the coinDCX office for questbook!</p>
-          </div>
-
-          <div className="photo-item photo-item-wide">
-            <img src={`${baseUrl}40folkswhiteboarding.png`} alt="whiteboarding event" className="photobooth-image" />
-            <p className="photo-caption">packed 30+ folks in an airbnb and did a whiteboarding session</p>
-          </div>
-
-          <div className="photo-item photo-item-medium">
+          <div className="photo-item">
             <img src={`${baseUrl}delhi.png`} alt="delhi" className="photobooth-image" />
-            <p className="photo-caption">live coding session admist 400AQI</p>
+            <p className="photo-caption">live coding session admist 400aqi</p>
           </div>
 
-          <div className="photo-item photo-item-small">
-            <img src={`${baseUrl}solanablr.png`} alt="solana blur" className="photobooth-image" />
-            <p className="photo-caption">got called back again to solana DEPIN summit</p>
+          <div className="photo-item">
+            <img src={`${baseUrl}solanablr.png`} alt="solana blr" className="photobooth-image" />
+            <p className="photo-caption">got called back again to solana depin summit</p>
           </div>
 
-          <div className="photo-item photo-item-medium">
-            <img src={`${baseUrl}merch.png`} alt="merch" className="photobooth-image photobooth-image-contain" />
+          <div className="photo-item">
+            <img src={`${baseUrl}chennai.png`} alt="chennai" className="photobooth-image" />
+            <p className="photo-caption">chennai meetup</p>
+          </div>
+
+          <div className="photo-item">
+            <img src={`${baseUrl}merch.png`} alt="merch" className="photobooth-image" />
             <p className="photo-caption">i make sure my community has good style</p>
           </div>
         </div>
