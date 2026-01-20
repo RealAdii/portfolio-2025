@@ -91,7 +91,7 @@ function Testimonials() {
               href="https://cal.com/zero-knowledge-verification/15min"
               target="_blank"
               rel="noopener noreferrer"
-              className="cv-download-btn"
+              className="book-call-btn"
             >
               book call
             </a>
