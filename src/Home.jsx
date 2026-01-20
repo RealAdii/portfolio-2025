@@ -58,6 +58,13 @@ const testimonials = [
     title: "@ clipstake",
     twitter: "https://x.com/almacium",
     avatar: "https://pbs.twimg.com/profile_images/1941511484305027072/KPzCqsHz_400x400.jpg"
+  },
+  {
+    quote: "adithya has been a standout point of contact at reclaim. he is extremely reliable, sharp, calm under pressure, and consistently gets even the most complex integrations moving forward with speed, clarity, and thoughtful support.",
+    name: "tom",
+    title: "@ earnos",
+    twitter: "https://x.com/TomasRiordan",
+    avatar: "https://pbs.twimg.com/profile_images/1332447889797357568/UNq34Cef_400x400.jpg"
   }
 ]
 
