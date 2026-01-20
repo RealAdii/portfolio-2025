@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import DarkModeToggle from './DarkModeToggle'
 import BackToTop from './BackToTop'
 import './App.css'
 
@@ -88,7 +87,14 @@ function Testimonials() {
               <span>↓</span>
               <span>cv</span>
             </a>
-            <DarkModeToggle />
+            <a
+              href="https://cal.com/zero-knowledge-verification/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cv-download-btn"
+            >
+              book call
+            </a>
           </div>
         </nav>
       </header>

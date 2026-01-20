@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import DarkModeToggle from './DarkModeToggle'
 import ImageModal from './ImageModal'
 import BackToTop from './BackToTop'
 import { useScrollAnimation } from './useScrollAnimation'
@@ -132,7 +131,14 @@ function Home() {
               <span>↓</span>
               <span>cv</span>
             </a>
-            <DarkModeToggle />
+            <a
+              href="https://cal.com/zero-knowledge-verification/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cv-download-btn"
+            >
+              book call
+            </a>
           </div>
         </nav>
       </header>

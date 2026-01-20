@@ -1,6 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import DarkModeToggle from './DarkModeToggle'
 import './Chat.css'
 
 const baseUrl = import.meta.env.BASE_URL
@@ -85,7 +84,14 @@ function Chat() {
               <span>↓</span>
               <span>cv</span>
             </a>
-            <DarkModeToggle />
+            <a
+              href="https://cal.com/zero-knowledge-verification/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cv-download-btn"
+            >
+              book call
+            </a>
           </div>
         </nav>
       </header>
