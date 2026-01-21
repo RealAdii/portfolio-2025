@@ -131,14 +131,16 @@ function Testimonials() {
           ))}
         </div>
 
-        <a
-          href="https://cal.com/zero-knowledge-verification/15min"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cal-button"
-        >
-          talk to me
-        </a>
+        <div style={{ textAlign: 'center' }}>
+          <a
+            href="https://cal.com/zero-knowledge-verification/15min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cal-button"
+          >
+            talk to me
+          </a>
+        </div>
 
         <div className="footer">
           <p className="footer-text">
