@@ -67,6 +67,13 @@ const testimonials = [
     title: "@ suave money inc & phoenix market",
     twitter: "https://x.com/siddjain99",
     avatar: "https://pbs.twimg.com/profile_images/1899000421735436288/kvUWDUuw_400x400.jpg"
+  },
+  {
+    quote: "adithya is a true go-getter—empathetic enough to deeply understand problems and persistent enough to see solutions through. he has a strong entrepreneurial mindset.",
+    name: "anonymous",
+    title: "@ p2p.me",
+    twitter: "https://p2p.me",
+    avatar: ""
   }
 ]
 
