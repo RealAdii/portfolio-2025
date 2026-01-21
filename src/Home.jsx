@@ -12,28 +12,28 @@ const testimonials = [
   {
     quote: "adithya gave us a lay of the land on zktls in the early days. he is extremely persistent, hands-on, and has the necessary technical background to win us over as a customer purely off merit.",
     name: "ya3kov",
-    title: "founder @ 3jane",
+    title: "@ 3jane",
     twitter: "https://x.com/_yakovsky",
     avatar: "https://pbs.twimg.com/profile_images/1787863954762674176/f2KC9rsD_400x400.jpg"
   },
   {
     quote: "adithya from reclaim is the most persistent and high agency partner we've worked with. despite working in a different time-zone he stayed up all night during launch to firefight issues and make sure things are at 100%.",
     name: "art",
-    title: "founder @ vana",
+    title: "@ vana",
     twitter: "https://x.com/artieart88",
     avatar: "https://pbs.twimg.com/profile_images/1856676879526166528/q-b8KD5D_400x400.jpg"
   },
   {
     quote: "appreciate all you've done this year and all your support. i know its going to be a big year for you. grind always pays off.",
     name: "jean",
-    title: "founding member @ xion",
+    title: "@ xion",
     twitter: "https://x.com/BurntFondue",
     avatar: "https://pbs.twimg.com/profile_images/1919753835725103104/mA49-lyD_400x400.jpg"
   },
   {
     quote: "adithya has been a pleasure to work with and a valuable partner in supporting the onchain creator economy. he's helped me understand and use more than one reclaim product and has been extremely generous and responsive.",
     name: "bradley",
-    title: "creator lead @ base",
+    title: "@ base",
     twitter: "https://x.com/brad_or_bradley",
     avatar: "https://pbs.twimg.com/profile_images/1407865444430614528/HCEKSw0T_400x400.jpg"
   },
@@ -47,7 +47,7 @@ const testimonials = [
   {
     quote: "you have a light within you keep harnessing it and follow your heart.",
     name: "samurai",
-    title: "director @ zo world",
+    title: "@ zo world",
     twitter: "https://x.com/Samuraizann",
     avatar: "https://pbs.twimg.com/profile_images/1921528920543031296/FKqFi2Ck_400x400.jpg"
   },
