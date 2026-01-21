@@ -31,7 +31,7 @@ const testimonials = [
     avatar: "https://pbs.twimg.com/profile_images/1919753835725103104/mA49-lyD_400x400.jpg"
   },
   {
-    quote: "you've already been very helpful, once i have the prototype working in prod and can share internally i will let your team know how helpful you've been.",
+    quote: "adithya has been a pleasure to work with and a valuable partner in supporting the onchain creator economy. he's helped me understand and use more than one reclaim product and has been extremely generous and responsive.",
     name: "bradley",
     title: "creator lead @ base",
     twitter: "https://x.com/brad_or_bradley",
