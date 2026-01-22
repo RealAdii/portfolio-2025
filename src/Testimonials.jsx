@@ -74,6 +74,13 @@ const testimonials = [
     title: "@ p2p.me",
     twitter: "https://p2p.me",
     avatar: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='black'/></svg>"
+  },
+  {
+    quote: "if you want to see what 'bias for action' looks like in real-time, just watch adithya. he stands out as a genuine go-getter who understands the heartbeat of community better than anyone. beyond his marketing and sales expertise, adithya is a master at building authentic relationships quickly. he is the definition of high agency, and i'm constantly inspired by his ability to simply 'make things happen'.",
+    name: "naresh",
+    title: "@ aptos",
+    twitter: "https://x.com/NareshKx",
+    avatar: "https://pbs.twimg.com/profile_images/1836004801454735360/2KkiNuxX_400x400.jpg"
   }
 ]
 
