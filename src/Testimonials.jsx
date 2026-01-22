@@ -80,7 +80,7 @@ const testimonials = [
     name: "naresh",
     title: "@ aptos",
     twitter: "https://x.com/NareshKx",
-    avatar: "https://pbs.twimg.com/profile_images/1836004801454735360/2KkiNuxX_400x400.jpg"
+    avatar: "https://unavatar.io/x/NareshKx"
   }
 ]
 
