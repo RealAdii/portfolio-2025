@@ -24,9 +24,9 @@ const testimonials = [
     avatar: "https://pbs.twimg.com/profile_images/1856676879526166528/q-b8KD5D_400x400.jpg"
   },
   {
-    quote: "appreciate all you've done this year and all your support. i know its going to be a big year for you. grind always pays off.",
+    quote: "adithya is one of those rare guys that puts his all into what he does and regardless what hes faced with, he is just going to figure things out. doesnt matter that it isnt in the job description. doesnt matter if it isnt glamorous. doesnt matter if hes never done it before. hes just going to figure it out. especially today when intelligence is abundant, the most vital skill to look for in someone is their agency and a willingness to say 'why would this be a problem? ill get it done'.",
     name: "jean",
-    title: "@ xion",
+    title: "@ fondue",
     twitter: "https://x.com/BurntFondue",
     avatar: "https://pbs.twimg.com/profile_images/1919753835725103104/mA49-lyD_400x400.jpg"
   },
