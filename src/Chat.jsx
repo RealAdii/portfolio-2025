@@ -85,7 +85,7 @@ function Chat() {
               <span>cv</span>
             </a>
             <a
-              href="https://cal.com/zero-knowledge-verification/15min"
+              href="https://cal.com/adithyadinesh/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="book-call-btn"
@@ -99,7 +99,7 @@ function Chat() {
       <main className="main chat-main">
         <h1 className="main-heading">talk to my AI clone (probably better than me)</h1>
         <p className="chat-disclaimer">
-          if you're a fan of robocop and hate the idea of robots taking over the world, just book a slot with me <a href="https://cal.com/zero-knowledge-verification/15min">here</a>
+          if you're a fan of robocop and hate the idea of robots taking over the world, just book a slot with me <a href="https://cal.com/adithyadinesh/30min">here</a>
         </p>
 
         <div className="chat-container">

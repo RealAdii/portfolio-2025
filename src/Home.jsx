@@ -139,7 +139,7 @@ function Home() {
               <span>cv</span>
             </a>
             <a
-              href="https://cal.com/zero-knowledge-verification/15min"
+              href="https://cal.com/adithyadinesh/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="book-call-btn"
@@ -228,7 +228,7 @@ function Home() {
         </div>
 
         <a
-          href="https://cal.com/zero-knowledge-verification/15min"
+          href="https://cal.com/adithyadinesh/30min"
           target="_blank"
           rel="noopener noreferrer"
           className="cal-button"
@@ -248,7 +248,7 @@ function Home() {
           className={`footer scroll-fade-in ${footerVisible ? 'visible' : ''}`}
         >
           <p className="footer-text">
-            p.s: if you wanna contact me book a slot <a href="https://cal.com/zero-knowledge-verification/15min" onClick={() => trackExternalLink('Cal.com', 'Calendar Booking')}>here </a>to say hi, i love meeting new people! follow me on <a href="https://x.com/adiiHQ" onClick={() => trackSocialMedia('Twitter')}>twitter </a> and <a href="https://www.linkedin.com/in/adithya-dinesh-77990026b/" onClick={() => trackSocialMedia('LinkedIn')}>linkedin</a>
+            p.s: if you wanna contact me book a slot <a href="https://cal.com/adithyadinesh/30min" onClick={() => trackExternalLink('Cal.com', 'Calendar Booking')}>here </a>to say hi, i love meeting new people! follow me on <a href="https://x.com/adiiHQ" onClick={() => trackSocialMedia('Twitter')}>twitter </a> and <a href="https://www.linkedin.com/in/adithya-dinesh-77990026b/" onClick={() => trackSocialMedia('LinkedIn')}>linkedin</a>
           </p>
         </div>
       </main>

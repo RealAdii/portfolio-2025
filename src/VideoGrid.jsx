@@ -103,7 +103,7 @@ function VideoGrid() {
       </p>
 
       <a
-        href="https://cal.com/zero-knowledge-verification/15min"
+        href="https://cal.com/adithyadinesh/30min"
         target="_blank"
         rel="noopener noreferrer"
         className="cal-button"
