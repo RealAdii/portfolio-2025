@@ -58,6 +58,34 @@ export const videos = [
     category: 'devex',
   },
   {
+    id: 57,
+    title: 'introducing p2p.me',
+    duration: '',
+    url: 'https://x.com/adiiHQ/status/2018733560207966441/video/1',
+    category: 'devex',
+  },
+  {
+    id: 59,
+    title: 'maximise claude projects for content engine',
+    duration: '',
+    url: 'https://x.com/adiiHQ/status/2015730244205092983/video/1',
+    category: 'devex',
+  },
+  {
+    id: 60,
+    title: 'introducing avnu v2',
+    duration: '',
+    url: 'https://x.com/adiiHQ/status/2013600430513696824/video/1',
+    category: 'devex',
+  },
+  {
+    id: 61,
+    title: 'get monetised in 18 days',
+    duration: '',
+    url: 'https://x.com/adiiHQ/status/2010682988246241506/video/1',
+    category: 'devex',
+  },
+  {
     id: 52,
     title: 'redline ep 1 - content creation ft. JD',
     duration: '',
@@ -399,6 +427,13 @@ export const videos = [
     title: 'redline ep 2 - how to curate a banger conference ft. Irshad (lead at IBW)',
     duration: '',
     url: 'https://x.com/adiiHQ/status/2004831874125070697/video/1',
+    category: 'podcasts',
+  },
+  {
+    id: 58,
+    title: 'pod w/ raghu, founder of scribble',
+    duration: '',
+    url: 'https://x.com/adiiHQ/status/2017226021775585533/video/1',
     category: 'podcasts',
   },
   {
