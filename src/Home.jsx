@@ -78,6 +78,13 @@ const testimonials = [
     title: "@ p2p.me",
     twitter: "https://p2p.me",
     avatar: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='black'/></svg>"
+  },
+  {
+    quote: "adithya's one of the most hardworking guys out there. he's all about work ethics and hustle, and even if he doesn't know something, he learns very quickly and keeps you at the tip of your toes with his speed of progress. it was an absolute pleasure working with him for almost two years.",
+    name: "srijith",
+    title: "@ aztec",
+    twitter: "https://x.com/Srijith_Padmesh",
+    avatar: "https://unavatar.io/x/Srijith_Padmesh"
   }
 ]
 

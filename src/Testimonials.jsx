@@ -81,6 +81,13 @@ const testimonials = [
     title: "@ aptos",
     twitter: "https://x.com/NareshKx",
     avatar: "https://unavatar.io/x/NareshKx"
+  },
+  {
+    quote: "adithya's one of the most hardworking guys out there. he's all about work ethics and hustle, and even if he doesn't know something, he learns very quickly and keeps you at the tip of your toes with his speed of progress. it was an absolute pleasure working with him for almost two years.",
+    name: "srijith",
+    title: "@ aztec",
+    twitter: "https://x.com/Srijith_Padmesh",
+    avatar: "https://unavatar.io/x/Srijith_Padmesh"
   }
 ]
 
