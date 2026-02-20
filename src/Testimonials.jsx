@@ -13,6 +13,13 @@ const testimonials = [
     avatar: "https://unavatar.io/x/HarshaKaramchat"
   },
   {
+    quote: "incredibly proud working with you.",
+    name: "abhilash",
+    title: "ex cofounder @ reclaim, ex samosa labs",
+    twitter: "https://x.com/abhilashi",
+    avatar: "https://unavatar.io/x/abhilashi"
+  },
+  {
     quote: "adithya gave us a lay of the land on zktls in the early days. he is extremely persistent, hands-on, and has the necessary technical background to win us over as a customer purely off merit.",
     name: "ya3kov",
     title: "cofounder @ 3jane",
