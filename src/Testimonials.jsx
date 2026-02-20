@@ -6,65 +6,44 @@ const baseUrl = import.meta.env.BASE_URL
 
 const testimonials = [
   {
+    quote: "@adiiHQ is by far the best person i have worked with. he's a personification of open claw. every founder needs an adithya to explore their full potential. i was fortunate to have worked with him during the most critical phase of the company and it's no hype that he is one of the key reasons why reclaim is winning today. the energy he brings into the room is infectious. i'll miss you badly man, hoping to cross paths really soon! cheers!",
+    name: "harsha",
+    title: "cofounder @ reclaim (yc)",
+    twitter: "https://x.com/HarshaKaramchat",
+    avatar: "https://unavatar.io/x/HarshaKaramchat"
+  },
+  {
     quote: "adithya gave us a lay of the land on zktls in the early days. he is extremely persistent, hands-on, and has the necessary technical background to win us over as a customer purely off merit.",
     name: "ya3kov",
-    title: "@ 3jane",
+    title: "cofounder @ 3jane",
     twitter: "https://x.com/_yakovsky",
     avatar: "https://pbs.twimg.com/profile_images/1787863954762674176/f2KC9rsD_400x400.jpg"
   },
   {
     quote: "adithya from reclaim is the most persistent and high agency partner we've worked with. despite working in a different time-zone he stayed up all night during launch to firefight issues and make sure things are at 100%.",
     name: "art",
-    title: "@ vana",
+    title: "cofounder @ vana",
     twitter: "https://x.com/artieart88",
     avatar: "https://pbs.twimg.com/profile_images/1856676879526166528/q-b8KD5D_400x400.jpg"
   },
   {
-    quote: "adithya is one of those rare guys that puts his all into what he does and regardless what hes faced with, he is just going to figure things out. doesnt matter that it isnt in the job description. doesnt matter if it isnt glamorous. doesnt matter if hes never done it before. hes just going to figure it out. especially today when intelligence is abundant, the most vital skill to look for in someone is their agency and a willingness to say 'why would this be a problem? ill get it done'.",
-    name: "jean",
-    title: "@ fondue",
-    twitter: "https://x.com/BurntFondue",
-    avatar: "https://pbs.twimg.com/profile_images/1919753835725103104/mA49-lyD_400x400.jpg"
-  },
-  {
-    quote: "adithya has been a pleasure to work with and a valuable partner in supporting the onchain creator economy. he's helped me understand and use more than one reclaim product and has been extremely generous and responsive.",
-    name: "bradley",
-    title: "@ base",
-    twitter: "https://x.com/brad_or_bradley",
-    avatar: "https://pbs.twimg.com/profile_images/1407865444430614528/HCEKSw0T_400x400.jpg"
-  },
-  {
-    quote: "do you even sleep?",
-    name: "gio",
-    title: "@ sophon",
-    twitter: "https://x.com/0xlutro",
-    avatar: "https://pbs.twimg.com/profile_images/1948726629238247424/rUxAfGsb_400x400.jpg"
-  },
-  {
-    quote: "you have a light within you keep harnessing it and follow your heart.",
-    name: "samurai",
-    title: "@ zo world",
-    twitter: "https://x.com/Samuraizann",
-    avatar: "https://pbs.twimg.com/profile_images/1921528920543031296/FKqFi2Ck_400x400.jpg"
-  },
-  {
     quote: "adithya is exceptionally responsive, communicates clearly, and reliably coordinates his team to deliver fixes quickly. someone i could always count on when it mattered most.",
     name: "alex",
-    title: "@ clipstake",
+    title: "cofounder @ clipstake",
     twitter: "https://x.com/almacium",
     avatar: "https://pbs.twimg.com/profile_images/1941511484305027072/KPzCqsHz_400x400.jpg"
   },
   {
     quote: "adithya has been a standout point of contact at reclaim. he is extremely reliable, sharp, calm under pressure, and consistently gets even the most complex integrations moving forward with speed, clarity, and thoughtful support.",
     name: "tom",
-    title: "@ earnos",
+    title: "cofounder @ earnos",
     twitter: "https://x.com/TomasRiordan",
     avatar: "https://pbs.twimg.com/profile_images/1332447889797357568/UNq34Cef_400x400.jpg"
   },
   {
     quote: "what stood out most was his proactive approach and genuine customer-first mindset. adithya builds trust quickly, understands context fast, and adapts his support to the specific challenges you're facing. he doesn't just react to issues — he anticipates them, brings options to the table, and follows through until things are actually solved.",
     name: "sidd",
-    title: "@ suave money inc & phoenix market",
+    title: "cofounder @ suave money inc & phoenix market",
     twitter: "https://x.com/siddjain99",
     avatar: "https://pbs.twimg.com/profile_images/1899000421735436288/kvUWDUuw_400x400.jpg"
   },
@@ -76,18 +55,53 @@ const testimonials = [
     avatar: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='black'/></svg>"
   },
   {
+    quote: "i had the chance to work closely with him, and honestly, he's one of the most responsive and dedicated people i've worked with. he's always eager to learn and never hesitates to ask questions. some of our best discussions came from him digging deep into topics. i still remember us spending late nights going back and forth just to properly understand zk proofs and how everything fit together. he genuinely cares about understanding things, not just skimming the surface. what really stands out is his willingness to jump in wherever needed. whether it was moving from content marketing into more technical work like code, or helping others craft content to better support clients, he was always ready. he didn't just do his part; he actively tried to make things better for the team and for the people we were supporting. he's persistent, dedicated, and brings a lot of positive energy. any team would be lucky to have someone who's this curious, hardworking, and supportive.",
+    name: "abdul",
+    title: "head of engineering @ reclaim (yc), ex-amazon",
+    twitter: "https://x.com/abdul_rashid_r",
+    avatar: "https://unavatar.io/x/abdul_rashid_r"
+  },
+  {
+    quote: "adithya has been a pleasure to work with and a valuable partner in supporting the onchain creator economy. he's helped me understand and use more than one reclaim product and has been extremely generous and responsive.",
+    name: "bradley",
+    title: "creator lead @ base",
+    twitter: "https://x.com/brad_or_bradley",
+    avatar: "https://pbs.twimg.com/profile_images/1407865444430614528/HCEKSw0T_400x400.jpg"
+  },
+  {
     quote: "if you want to see what 'bias for action' looks like in real-time, just watch adithya. he stands out as a genuine go-getter who understands the heartbeat of community better than anyone. beyond his marketing and sales expertise, adithya is a master at building authentic relationships quickly. he is the definition of high agency, and i'm constantly inspired by his ability to simply 'make things happen'.",
     name: "naresh",
-    title: "@ aptos",
+    title: "global expansion lead @ aptos",
     twitter: "https://x.com/NareshKx",
     avatar: "https://unavatar.io/x/NareshKx"
   },
   {
     quote: "adithya's one of the most hardworking guys out there. he's all about work ethics and hustle, and even if he doesn't know something, he learns very quickly and keeps you at the tip of your toes with his speed of progress. it was an absolute pleasure working with him for almost two years.",
     name: "srijith",
-    title: "@ aztec",
+    title: "enterprise lead @ aztec",
     twitter: "https://x.com/Srijith_Padmesh",
     avatar: "https://unavatar.io/x/Srijith_Padmesh"
+  },
+  {
+    quote: "do you even sleep?",
+    name: "gio",
+    title: "technical product @ sophon",
+    twitter: "https://x.com/0xlutro",
+    avatar: "https://pbs.twimg.com/profile_images/1948726629238247424/rUxAfGsb_400x400.jpg"
+  },
+  {
+    quote: "adithya is one of those rare guys that puts his all into what he does and regardless what hes faced with, he is just going to figure things out. doesnt matter that it isnt in the job description. doesnt matter if it isnt glamorous. doesnt matter if hes never done it before. hes just going to figure it out. especially today when intelligence is abundant, the most vital skill to look for in someone is their agency and a willingness to say 'why would this be a problem? ill get it done'.",
+    name: "jean",
+    title: "@ fondue",
+    twitter: "https://x.com/BurntFondue",
+    avatar: "https://pbs.twimg.com/profile_images/1919753835725103104/mA49-lyD_400x400.jpg"
+  },
+  {
+    quote: "you have a light within you keep harnessing it and follow your heart.",
+    name: "samurai",
+    title: "@ zo world",
+    twitter: "https://x.com/Samuraizann",
+    avatar: "https://pbs.twimg.com/profile_images/1921528920543031296/FKqFi2Ck_400x400.jpg"
   }
 ]
 
