@@ -111,7 +111,7 @@ function Home() {
             ref={content2Ref}
             className={`paragraph scroll-fade-in ${content2Visible ? 'visible' : ''}`}
           >
-            previously i lead the sales team at Reclaim (YC) and Questbook to <span className="green-text">more than $1M ARR in 7 months</span>. i also drived GTM campaigns that did <span className="green-text">more ~10M in impressions</span> and built a content engine that did <span className="green-text">~50 inbounds a month</span>. i also managed grants and onboarded ecosystems like <span className="green-text">Circle, Polygon, Arbitrum</span>.
+            previously i led the sales team at Reclaim (YC) and Questbook to <span className="green-text">more than $1M ARR in 7 months</span>. i also drived GTM campaigns that did <span className="green-text">more ~10M in impressions</span> and built a content engine that did <span className="green-text">~50 inbounds a month</span>. i also managed grants and onboarded ecosystems like <span className="green-text">Circle, Polygon, Arbitrum</span>.
           </p>
 
           <p className="paragraph">
