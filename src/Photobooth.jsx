@@ -11,8 +11,8 @@ function Photobooth() {
         <nav className="nav">
           <div className="nav-links">
             <Link to="/">home</Link>
-            <Link to="/content">content bank</Link>
-            <Link to="/sales">sales 101</Link>
+            <Link to="/content">content</Link>
+            <Link to="/blog">blog</Link>
             <Link to="/testimonials">testimonials</Link>
             <Link to="/photobooth">photobooth</Link>
           </div>
