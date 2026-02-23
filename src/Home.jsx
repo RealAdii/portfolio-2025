@@ -144,7 +144,7 @@ function Home() {
         >
           <img
             src={`${baseUrl}hehedp.jpg`}
-            alt="placeholder"
+            alt="Adithya Dinesh"
             className="profile-image clickable"
             onClick={handleEasterEggClick}
             style={{ cursor: 'pointer' }}
