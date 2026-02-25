@@ -32,6 +32,7 @@ function Home() {
   const [headingRef, headingVisible] = useScrollAnimation(0.1, 100)
   const [content1Ref, content1Visible] = useScrollAnimation(0.1, 200)
   const [content2Ref, content2Visible] = useScrollAnimation(0.1, 300)
+  const [alterEgoRef, alterEgoVisible] = useScrollAnimation(0.1, 350)
   const [content3Ref, content3Visible] = useScrollAnimation(0.1, 400)
   const [principlesRef, principlesVisible] = useScrollAnimation(0.1, 500)
   const [footerRef, footerVisible] = useScrollAnimation(0.1, 600)
@@ -136,6 +137,40 @@ function Home() {
           <p className="paragraph">
             i'm now based out kerala, india, back to my roots after travelling the world (prev: thailand, singapore, dubai). i also played the piano and the trumpet, sang for the school band, did mimicry and even captained the football team.
           </p>
+        </div>
+
+        <div
+          ref={alterEgoRef}
+          className={`alter-ego-section scroll-fade-in ${alterEgoVisible ? 'visible' : ''}`}
+        >
+          <h3 className="alter-ego-heading">alter-ego <a href="https://github.com/RealAdii" target="_blank" rel="noopener noreferrer" className="alter-ego-github">@RealAdii</a></h3>
+          <p className="alter-ego-subtitle">a few of my works (my engineer alter ego)</p>
+          <div className="alter-ego-grid">
+            <div className="alter-ego-card">
+              <span className="alter-ego-name">rafflepunk</span>
+              <span className="alter-ego-desc">a platform that lets you create a raffle instantly or participate in one. (ps: it's onchain on starknet built using starkzap)</span>
+            </div>
+            <div className="alter-ego-card">
+              <span className="alter-ego-name">sovereign</span>
+              <span className="alter-ego-desc">AI whistleblowing platform where you can anonymously report anything without revealing your identity (possible because of zero-knowledge proofs via <a href="https://reclaimprotocol.org/" target="_blank" rel="noopener noreferrer">reclaim protocol</a>)</span>
+            </div>
+            <div className="alter-ego-card">
+              <span className="alter-ego-name">creator lending</span>
+              <span className="alter-ego-desc">creator lending marketplace where creators can borrow against their revenue on social media platforms.</span>
+            </div>
+            <div className="alter-ego-card">
+              <span className="alter-ego-name">morning wire</span>
+              <span className="alter-ego-desc">cron that sends me the top wall street news, AI tweets from x, top 5 yc companies (investor memo style) and sends me a hacker news style newsletter via email everyday.</span>
+            </div>
+            <div className="alter-ego-card">
+              <span className="alter-ego-name">free notion</span>
+              <span className="alter-ego-desc">clone of notion that runs on local machine and is open source.</span>
+            </div>
+            <div className="alter-ego-card">
+              <span className="alter-ego-name">reclaim-gmail-zkp</span>
+              <span className="alter-ego-desc">verify your gmail inbox without revealing your email via zero-knowledge proofs.</span>
+            </div>
+          </div>
         </div>
 
         <div
