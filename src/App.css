@@ -261,6 +261,13 @@
   opacity: 0.6;
 }
 
+.alter-ego-github-icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: -3px;
+  margin-right: 2px;
+}
+
 .alter-ego-subtitle {
   font-size: 14px;
   color: var(--text-secondary);
