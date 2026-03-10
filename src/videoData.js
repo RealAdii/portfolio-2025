@@ -443,6 +443,13 @@ export const videos = [
     url: 'https://x.com/adiiHQ/status/2008811089773900222/video/1',
     category: 'ads',
   },
+  {
+    id: 62,
+    title: 'we did not expect starknet to do this (blitz)',
+    duration: '1:00',
+    url: 'https://x.com/adiiHQ/status/2031386340705849479/video/1',
+    category: 'explainers',
+  },
   ]
 
 // Extract thumbnail URL from video URL

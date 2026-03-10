@@ -108,6 +108,10 @@ function Home() {
             i started my first company at 14 when i rented out playstation games to my friends and made over 5 figures in revenue.
           </p>
 
+          <p className="paragraph">
+            currently i'm doing things at <span className="green-text">Starkware</span>.
+          </p>
+
           <p
             ref={content2Ref}
             className={`paragraph scroll-fade-in ${content2Visible ? 'visible' : ''}`}
